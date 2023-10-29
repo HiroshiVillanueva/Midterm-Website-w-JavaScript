@@ -1,0 +1,8 @@
+.Forum_Page{
+    width: auto;
+    height: 1000px;
+
+    background-color: rgba(44, 61, 53, 0.714);
+    backdrop-filter: blur(8px);
+    margin: 2rem;
+}
