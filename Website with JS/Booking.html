@@ -13,16 +13,16 @@
         <link rel="stylesheet" href="#">
 
         <script src="CSS - JavaScript/Navbar_Properties.js" ></script>
-        <script src="#" ></script>
+        <script src="CSS - JavaScript/Booking.js" ></script>
     </head>
 
     <body style="background-image: url(Dark\ Mode.jpg);">
         <!--Horizontal Navigation Bar-->
-        <header class="Horizontal_Navigation_Bar_Wrapper">
+        <header id="proven" class="Horizontal_Navigation_Bar_Wrapper">
 
             <img onclick="NavBarToggle()" id="Menu" src="CSS - JavaScript/Images/hamburger.png" alt="Menu">      
             <img id="Logo" src="CSS - JavaScript/Images/Logo White.png" alt="Logo" title="AlVilla Solutions">
-            <h1>AlVilla Solutions</h1>
+            <h1 id="TitleAL" class="Alvilla" >AlVilla Solutions</h1>
 
 
             <a class="Horizontal_Navigation_List1" href="Booking.html" class="Horizontal_Navigation_Text"> BOOKING </a>
@@ -81,6 +81,12 @@
                         <br>
                         <a style="font-size: 12px;" href="" class="Consultant_Skill"> Skill1 </a>
                     </li>
+
+                    <li class="Consultant_Menu_List">
+                        <a href="" class="Consultant_Name"> Introduction to J Script </a>
+                        <br>
+                        <a style="font-size: 12px;" href="" class="Consultant_Skill"> Skill1 </a>
+                    </li>
                 </ul>
             </div>
             <div id="NavSymbols4" class="Button_Wrapper">
@@ -93,11 +99,97 @@
 
 <!------------------------------------------------------------------------------------------------------------------------------------------------->
 
-    <div id="Expander" class="Content_Home">
+        <div id="Expander" class="Content_Home">
         
-        <div class="Forum_Page">
+
+        <h1 style="text-align: center;"> BOOK A CONSULTANT</h1>
+        <form class="Forum_Page">
+            <div class="Forum_Divider1">
+                <div class="Forum_List1">
+                    <div>
+                        <label for="#" ><h5>First Name</h5></label>
+                        <input type="text" id="#" name="#" required>
+                    </div>
+                    <div>
+                        <label for="#" ><h5>Last Name</h5></label>
+                        <input type="text" id="#" name="#" required>
+                    </div>
+                </div>
+
+                <div class="Forum_List1">
+                    <div>
+                        <label for="#" ><h5>Email</h5></label>
+                        <input type="email" id="#" name="#" required>
+                    </div>
+                    <div>
+                        <label for="#" ><h5>Contact Number</h5></label>
+                        <input type="tel" id="#" name="#" required>
+                    </div>
+                </div>
+    
+                <div class="Forum_List2">
+                    <label for="#" ><h5>Consultant</h5></label>
+                    <select class="#" id="#" required>
+                        <option> Test 1 </option>
+                    </select>
+                </div>
+    
+                <div class="Forum_List1">
+                    <div>
+                        <label for="#" ><h5>Schedule Start</h5></label>
+                        <input type="datetime-local" id="#" name="#" required>
+                    </div>
+                    <div>
+                        <label for="#" ><h5>Schedule End</h5></label>
+                        <input type="datetime-local" id="#" name="#" required>
+                    </div>
+                </div>
+
+                <div class="Forum_List3">
+                    <label for="#" ><h5>Language</h5></label>
+                    <select class="#" id="#" required>
+                        <option> Test 1 </option>
+                    </select>
+                </div>
+
+                <div class="Forum_List2">
+                    <label for="#" ><h5 onclick="DivideAppear()">Query</h5></label>
+                    <textarea onclick="DivideAppear()" id="#" name="#" placeholder="Summary of your Problem/ Request" style="height: 50px; width: 75%;" required></textarea>
+                </div>
+
+                <div class="Forum_List2">
+                    <label for="#" ><h5>Code Sample (optional)</h5></label>
+                    <input type="file" id="#" name="#">
+                </div>
+            </div>
+
+            <div id="Divider2" class="Forum_Divider2">
+                <h2 style="color:White">Payment</h2>
+                <div class="Divider_Payment_Menu">
+                    <a href="" class="Divider_Payment"><img src="" alt="Mastercard"></a>
+
+                    <a href="" class="Divider_Payment"><img src="" alt="GCASH"></a>
+
+                    <a href="" class="Divider_Payment"><img src="" alt="CASH"></a>
+
+                    <a href="" class="Divider_Payment"><img src="" alt="PayMaya"></a>
+                </div>
+
+                <div class="Divider_TerCon">
+                    <input type="checkbox" required>
+                    <p style="color:White">
+                        I have read and agreed to the 
+                        <a target="#" href="#" style="color: rgb(5, 124, 199);">Terms & Privacy</a>
+                         of our company.
+                    </p>
+                </div>
+
+                <input class="Sumbittion_Button" type="submit" value="Confirm Request">
+
+            </div>
             
-        </div>
+            
+        </form>
 
 
 
@@ -166,7 +258,7 @@
                         <a href="#"> <img    src="#"     alt="BDO"   ></a>
                         <a href="#"> <img    src="#"     alt="LANDBANK"   ></a>
                         <a href="#"> <img    src="#"     alt="UNIONBANK"   ></a>
-                        <a href="#"> <img    src="#"     alt="CASH"   ></a>
+                        <a href="#"> <img    src="#"     alt="GCASH"   ></a>
                     </div>
                 </div>
                 <div class="Footer_List">

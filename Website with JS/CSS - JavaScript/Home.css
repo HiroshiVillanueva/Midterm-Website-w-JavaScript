@@ -140,8 +140,8 @@ h2{
 
     padding: 1rem;
 }
-.CoverageList1:hover p, .CoverageList2:hover p, .CoverageList3:hover p, .CoverageList4:hover p{
-    height: 6rem;
+.ToggleMeaning{
+    height: 6rem!important;
 }
 
 .CoverageList1 p, .CoverageList2 p, .CoverageList3 p, .CoverageList4 p{
@@ -220,9 +220,9 @@ h2{
     backdrop-filter: blur(5px);
     
     padding: 1rem 0rem;
-    margin: 0rem 15rem;
-
-    border-radius: 3px;
+    margin: 0rem 0rem;
+    
+    border-top: solid 1px rgba(255, 255, 255, 0.281);
 }
 
 
