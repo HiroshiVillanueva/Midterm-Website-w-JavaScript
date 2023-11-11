@@ -38,6 +38,9 @@
 
     margin-bottom: 1rem;
     padding: 0.1rem 0.5rem;
+
+    background-color: rgba(18, 73, 55, 0.634);
+    border-radius: 8px;
 }
 
 .Prof_Info ul li{

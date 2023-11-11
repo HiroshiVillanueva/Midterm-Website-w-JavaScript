@@ -42,3 +42,11 @@ function Toggle4() {
         PageExpander.className = "Definition4";
     }
 }
+function Toggle13() {
+    const PageExpander = document.getElementById('Faq_Toggle13');
+    if(PageExpander.className === "Definition13") {
+        PageExpander.className += " Definition_Appear";
+    } else {
+        PageExpander.className = "Definition13";
+    }
+}

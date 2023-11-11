@@ -17,6 +17,7 @@
     </head>
 
     <body style="background-image: url(Dark\ Mode.jpg);">
+        <div class="Loader"></div>
         <!--Horizontal Navigation Bar-->
         <header id="proven" class="Horizontal_Navigation_Bar_Wrapper">
 
@@ -107,59 +108,65 @@
             <div class="Forum_Divider1">
                 <div class="Forum_List1">
                     <div>
-                        <label for="#" ><h5>First Name</h5></label>
-                        <input type="text" id="#" name="#" required>
+                        <label for="FName" ><h5>First Name</h5></label>
+                        <input type="text" id="#" name="FName" placeholder="Enter First Name" required>
                     </div>
                     <div>
-                        <label for="#" ><h5>Last Name</h5></label>
-                        <input type="text" id="#" name="#" required>
+                        <label for="LName" ><h5>Last Name</h5></label>
+                        <input type="text" id="#" name="LName" placeholder="Enter Last Name" required>
                     </div>
                 </div>
 
                 <div class="Forum_List1">
                     <div>
-                        <label for="#" ><h5>Email</h5></label>
-                        <input type="email" id="#" name="#" required>
+                        <label for="Email" ><h5>Email</h5></label>
+                        <input type="email" id="#" name="Email" placeholder="Enter Email" required>
                     </div>
                     <div>
-                        <label for="#" ><h5>Contact Number</h5></label>
-                        <input type="tel" id="#" name="#" required>
+                        <label for="Phone" ><h5>Contact Number</h5></label>
+                        <input type="tel" id="#" name="Phone" placeholder="Enter Phone Number" required>
                     </div>
                 </div>
     
                 <div class="Forum_List2">
-                    <label for="#" ><h5>Consultant</h5></label>
-                    <select class="#" id="#" required>
-                        <option> Test 1 </option>
+                    <label for="Consul" ><h5>Consultant</h5></label>
+                    <select class="#" id="Consul" elected="undefined" required>
+                        <option style="display: none;" disabled selected value> -- select an option -- </option>
+                        <option> Ghen Benedict </option>
+                        <option> Baxter Bracamonte </option>
+                        <option> Carlos Macalolot </option>
                     </select>
                 </div>
     
                 <div class="Forum_List1">
                     <div>
-                        <label for="#" ><h5>Schedule Start</h5></label>
-                        <input type="datetime-local" id="#" name="#" required>
+                        <label for="SchedS" ><h5>Schedule Start</h5></label>
+                        <input type="datetime-local" id="#" name="SchedS" required>
                     </div>
                     <div>
-                        <label for="#" ><h5>Schedule End</h5></label>
-                        <input type="datetime-local" id="#" name="#" required>
+                        <label for="SchedF" ><h5>Schedule End</h5></label>
+                        <input type="datetime-local" id="#" name="SchedF" required>
                     </div>
                 </div>
 
                 <div class="Forum_List3">
-                    <label for="#" ><h5>Language</h5></label>
-                    <select class="#" id="#" required>
-                        <option> Test 1 </option>
+                    <label for="CodeLang" ><h5>Language</h5></label>
+                    <select class="#" id="CodeLang" required>
+                        <option> HTML </option>
+                        <option> Java Script </option>
+                        <option> C </option>
+                        <option> Python </option>
                     </select>
                 </div>
 
                 <div class="Forum_List2">
-                    <label for="#" ><h5 onclick="DivideAppear()">Query</h5></label>
-                    <textarea onclick="DivideAppear()" id="#" name="#" placeholder="Summary of your Problem/ Request" style="height: 50px; width: 75%;" required></textarea>
+                    <label for="MQuery" ><h5 onclick="DivideAppear()">Query</h5></label>
+                    <textarea onclick="DivideAppear()" id="#" name="MQuery" placeholder="Summary of your Problem/ Request" style="height: 50px; width: 75%;" required></textarea>
                 </div>
 
                 <div class="Forum_List2">
-                    <label for="#" ><h5>Code Sample (optional)</h5></label>
-                    <input type="file" id="#" name="#">
+                    <label for="Csample" ><h5>Code Sample (optional)</h5></label>
+                    <input type="file" id="#" name="Csample">
                 </div>
             </div>
 
@@ -177,9 +184,9 @@
 
                 <div class="Divider_TerCon">
                     <input type="checkbox" required>
-                    <p style="color:White">
+                    <p style="color:White; text-align: left;">
                         I have read and agreed to the 
-                        <a target="#" href="#" style="color: rgb(5, 124, 199);">Terms & Privacy</a>
+                        <a target="#" href="Help.html" class="five" style="color: rgb(5, 124, 199);">Terms & Privacy</a>
                          of our company.
                     </p>
                 </div>
